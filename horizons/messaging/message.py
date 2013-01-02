@@ -215,4 +215,4 @@ class SettingChanged(Message):
 	arguments = ('setting_name', 'old_value', 'new_value', )
 
 class LoadingProgress(Message):
-	arguments = ('text', )
+	arguments = ('stage', )
