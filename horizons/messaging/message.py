@@ -213,3 +213,6 @@ class SpeedChanged(Message):
 class SettingChanged(Message):
 	"""Sent when a setting is changed in the dialog."""
 	arguments = ('setting_name', 'old_value', 'new_value', )
+
+class LoadingProgress(Message):
+	arguments = ('text', )
